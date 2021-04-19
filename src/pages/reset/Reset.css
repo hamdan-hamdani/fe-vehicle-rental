@@ -1,0 +1,56 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-image-reset {
+  background: url(../../img/reset-password.svg) !important;
+}
+
+.title-reset {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.box-reset {
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.arrow-left {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(../../img/chevron-left.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+.back {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.box-reset-pass {
+  width: 317px;
+  text-align: center;
+}
+
+.text-reset-pass {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 90px;
+}

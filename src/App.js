@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import Login from "./pages/login/Login";
+import Signup from "./pages/signup/Signup";
+import Reset from "./pages/reset/Reset";
+
+import "./App.css";
+import Home from "./pages/home/Home";
+import DetailCategory from "./pages/detailCategory/DetailCategory";
+
+class App extends Component {
+  state = {
+    name: "Hello Hamdan",
+    username: "username",
+    password: "password",
+  };
+
+  handleState = () => {
+    this.setState({
+      name: "Bapak Ganteng",
+    });
+  };
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route path="/reset" exact>
+            <Reset />
+          </Route>
+          <Route path="/signup" exact>
+            <Signup />
+          </Route>
+          <Route path="/home" exact>
+            <Home />
+          </Route>
+          <Route path="/" exact>
+            <DetailCategory />
+          </Route>
+          {/* <Route path="/" exact>
+            <Login className="input" username={this.state.username} password={this.state.password} />
+          </Route> */}
+        </Switch>
+      </Router>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,49 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-image-login {
+  background: url(../../img/login.svg) !important;
+}
+
+.title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.box-input {
+  position: relative;
+  top: 30%;
+  left: 5%;
+}
+
+.box-login {
+  text-align: center;
+  width: 317px;
+}
+
+.input {
+  margin-top: 25px;
+}
+
+.text {
+  color: #fff;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.btn-login {
+  margin-top: 20px !important;
+}

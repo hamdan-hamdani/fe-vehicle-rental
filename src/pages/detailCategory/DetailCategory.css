@@ -1,0 +1,77 @@
+.bg {
+  background: #bdbaba;
+  padding: 20px;
+}
+
+.hot-deals {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #393939;
+  text-decoration: none;
+}
+
+.arrow-left {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(../../img/chevron-left.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.container-grid {
+  margin-top: 33px;
+}
+
+.image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px 20px 0px 0px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.desc p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #999999;
+}
+
+.vehicle-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-name-status .name {
+  color: #393939;
+}
+
+.container-name-status .status {
+  color: green;
+}
+
+.price {
+  text-align: right;
+}
+
+.price .disc-price {
+  color: red;
+  text-decoration: line-through;
+}
+
+.price .normal-price {
+  color: #393939;
+}

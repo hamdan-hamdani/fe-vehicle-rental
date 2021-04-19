@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  background: #ffcd61;
+  width: 317px;
+  height: 51px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+
+  color: #393939;
+}
